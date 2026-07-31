@@ -3,10 +3,11 @@ using namespace std;
 
 class BankAccount{
     private:
-    int amt=0;
+    int amt=27000;
 string pin ,name;
 public:
    void show(){
+    cout<<"Balance: "<<amt<<endl;
 
    } 
 void withdraw(int rs){
@@ -22,8 +23,8 @@ int main(){
     BankAccount a,b,c;;
     a.deposit(25000);
     b.withdraw(10000);
-    a.amt=0;
-    a.name="Ravi";
-cout<<c.amt<<endl;
+    a.show();
+    b.show();
+   return 0;
     
 }
