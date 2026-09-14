@@ -13,12 +13,14 @@ public:
     }
     // Friend Function Operator
 
-    friend point operator+(point p1, point p2);// USE FOR OVERLOADING 
+    point operator+(point p1){
+        return point(p1.x + x, p1.y +y);
+    }
+    point operator+(int a){
+        return point(a+ x, a*2 +y);
+    }
 };
-point operator+(point p1, point p2)
-{
-    return point(p1.x + p2.x, p1.y + p2.y);
-}
+
 
 int main()
 {
@@ -26,8 +28,9 @@ int main()
     point p2(-1, 6);
     p1.show();
     p2.show();
-    point p3 = p1 + p2;// IF WE PRIT SIMPLY P3 THEN NOT PRINT THATS WHY WE CREATE FRIEND FUNCTION FOR OVERLOAD
-    p3.show();
+    p1 = p1 + p2;// IF WE PRINT SIMPLY P3 THEN NOT PRINT THATS WHY WE CREATE FRIEND FUNCTION FOR OVERLOAD
+    p1.show();
+    p2 = p1+5;
 }
 
 
