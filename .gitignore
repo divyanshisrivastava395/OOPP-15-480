@@ -1,5 +1,5 @@
-*
-*/*
+*.*
+*/*.*
 .DS_Store
 # Whitelist files with extensions and source
 !*.cpp
