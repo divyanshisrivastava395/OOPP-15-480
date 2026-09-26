@@ -17,7 +17,7 @@ int main() {
     updatePointer(&salary2);
 
     cout << "Salary using reference: " << salary1 << endl;
-    cout << "Salary using pointer: " << salary2 << endl;
+    cout << "Salary using pointer: " << salary2 ;
 
     return 0;
 }
