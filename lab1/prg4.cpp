@@ -14,7 +14,7 @@ public:
     }
 
     void show() {
-        cout << hh << ":" << mm << ":" << ss << endl;
+        cout << hh << ":" << mm << ":" << ss << "\n";
     }
 };
 
