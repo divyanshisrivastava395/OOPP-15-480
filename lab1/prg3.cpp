@@ -28,7 +28,7 @@ int main() {
     cout << "\nEnter Point 2\n";
     p2.input();
 
-    cout << "\nPoint 1: ";
+    cout << "\nPoint 1: "<<endl;;
     p1.show();
 
     cout << "Point 2: ";
