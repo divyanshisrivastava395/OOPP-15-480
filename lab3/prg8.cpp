@@ -30,7 +30,7 @@ int main() {
     cout << "\nAfter Function Call:" << endl;
     cout << "Call by Value: " << salary1 << endl;
     cout << "Call by Reference: " << salary2 << endl;
-    cout << "Call by Address: " << salary3 << endl;
+    cout << "Call by Address: " << salary3 ;
 
     return 0;
 }
