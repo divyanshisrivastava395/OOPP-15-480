@@ -49,7 +49,7 @@ int main()
 
     cout << "Enter base and height: ";
     cin >> base >> height;
-    cout << "Area of Triangle = " << a.area(base, height, true) << endl;
+    cout << "Area of Triangle = " << a.area(base, height, true);
 
     return 0;
 }
