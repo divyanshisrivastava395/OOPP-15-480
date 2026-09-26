@@ -21,7 +21,7 @@ inline void Number::input()
 inline void Number::show()
 {
     cout << "x = " << x << endl;
-    cout << "y = " << y << endl;
+    cout << "y = " << y ;
 }
 
 int main()
