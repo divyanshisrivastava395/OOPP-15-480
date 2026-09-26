@@ -39,7 +39,7 @@ int main()
     cout << "Multiplication with default argument = " << c.multiply(5) << endl;
 
     cout << "Double addition = " << c.add(2.5, 3.5) << endl;
-    cout << "Double multiplication = " << c.multiply(2.5, 4.0) << endl;
+    cout << "Double multiplication = " << c.multiply(2.5, 4.0);
 
     return 0;
 }
