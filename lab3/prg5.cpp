@@ -9,6 +9,6 @@ int main() {
 
     newSalary = newSalary + (newSalary * 0.10);
 
-    cout << "Salary from old variable: " << salary << endl;
+    cout << "Salary from old variable: " << salary;
     return 0;
 }
