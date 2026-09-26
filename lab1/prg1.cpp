@@ -27,7 +27,7 @@ public:
 int main() {
     Student s1, s2, s3;
 
-    cout << "Enter details of Student 1"<<endl;
+    cout << "Enter details of Student 1\n";
     s1.input();
 
     cout << "\nEnter details of Student 2\n";
