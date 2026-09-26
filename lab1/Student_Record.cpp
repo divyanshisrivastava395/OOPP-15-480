@@ -31,7 +31,7 @@ public:
         cout << "\n----- Student Record -----" << endl;
         cout << "Roll Number : " << rollNo << endl;
         cout << "Name        : " << name << endl;
-        cout << "Marks       : " << marks << endl;
+        cout << "Marks       : " << marks;
     }
 };
 
