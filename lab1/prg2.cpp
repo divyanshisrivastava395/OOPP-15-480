@@ -37,7 +37,7 @@ int main() {
         s[i].input();
     }
 
-    cout << "\nStudent Records\n";
+    cout << "\nStudent Records"<<endl;
 
     for (int i = 0; i < n; i++) {
         cout << "\nStudent " << i + 1;
